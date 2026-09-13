@@ -1,9 +1,5 @@
 import { defineConfig } from '@playwright/test';
 
-/**
- * API smoke tests against JSONPlaceholder (https://jsonplaceholder.typicode.com),
- * a free, keyless fake REST API intended for testing/prototyping.
- */
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
